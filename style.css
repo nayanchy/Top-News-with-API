@@ -1,0 +1,23 @@
+.news-section {
+  display: flex;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 16px;
+}
+.topic-headings {
+  display: none;
+}
+.source-section ul {
+  text-decoration: none;
+}
+.source-section ul li {
+  list-style: none;
+  display: inline-block;
+}
+.news-title {
+  font-family: "Oswald", sans-serif;
+}
+.news-excerpt {
+  font-family: "Quicksand", sans-serif;
+}

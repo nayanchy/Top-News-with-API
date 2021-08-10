@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All The News</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Quicksand:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Get All the latest News</h1>
+            </div>
+
+            <div class="col-md-6 offset-md-3">
+                <form class="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="news" placeholder="Type topic">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary search-btn">Search</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="topic-headings">
+                <h3 class="text-center">All the news from <span class="topic-dyn">topic</span></h3>
+            </div>
+
+            <div class="col-md-10 offset-md-1 news-section">
+                
+                <div class="news-container">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://ichef.bbci.co.uk/news/1024/branded_news/DE5F/production/_119872965_medals_getty.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <!-- <div class="news-item">
+                        <div class="news-image">
+                            <img src="https://ichef.bbci.co.uk/news/1024/branded_news/DE5F/production/_119872965_medals_getty.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="news-headline">
+                            <h2><a href="#">This is a headline</a></h2>
+                        </div>
+                        <div class="news-excerpt"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore modi, pariatur autem quia similique consequatur libero cum eos possimus sapiente nam, ad ab voluptates explicabo ut harum laboriosam commodi obcaecati?</p></div>
+                    </div> -->
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <script src="news.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
